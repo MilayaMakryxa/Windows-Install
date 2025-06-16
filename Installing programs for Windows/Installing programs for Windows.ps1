@@ -35,7 +35,7 @@ $apps = @(
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Редакор видео
     "ByteDance.CapCut", # CapCut Video Editor
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Мессенджеры
-    "Discord.Discord", # Discord
+    "XPDC2RH70K22MN", # Discord
     "Telegram.TelegramDesktop", # Telegram Desktop
     "9NKSQGP7F2NH", # WhatsApp Desktop
     "Microsoft.Teams", # Microsoft Teams
@@ -88,3 +88,4 @@ foreach ($app in $apps)
 }
 Write-Host "Installation apps complete." -ForegroundColor Green
 Read-Host "Press Enter to exit"
+Set-ExecutionPolicy Default -Scope CurrentUser
