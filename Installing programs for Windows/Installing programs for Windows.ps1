@@ -33,7 +33,7 @@ $apps = @(
     "Ubisoft.Connect", # Ubisoft Connect
     "GOG.Galaxy", # GOG Galaxy
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Редакор видео
-    "Bytedance.CapCut", # CapCut Video Editor
+    "ByteDance.CapCut", # CapCut Video Editor
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Мессенджеры
     "Discord.Discord", # Discord
     "Telegram.TelegramDesktop", # Telegram Desktop
