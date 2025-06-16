@@ -5,8 +5,7 @@
 # Во время установки может потребоваться подтверждение действий от пользователя. Для установки без пользовательского ввода в параметрах управления учетными записями Windows отключите контроль учетных записей (UAC) (ползунок вниз).
 # Перед устоновкой следует закоментировать или удалить строки с программами, которые вы не хотите устанавливать.
 # Для запуска скрипта откройте PowerShell от имени администратора перейдите раздел, где расположен скрипт и выполните следующие команды по очереди:
-# -ExecutionPolicy Bypass -File "C:\<Путь к файлу (можно узнать через проводник)>"
-# .\installing programm for Windows.ps1
+# powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Super user\Downloads\Installing programs for Windows.ps1" !!! Путь к файлу указать свой, это можно сделать через проводник, обязательно с указанием имени файла !!!
 winget show --id 9NKSQGP7F2NH --source msstore # Ввести Y для подтверждения лицензии
 $apps = @(
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Архиваторы
@@ -50,11 +49,11 @@ $apps = @(
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Виртуальные машины
     "Oracle.VirtualBox", # Oracle VirtualBox
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ VPN Сервисы
-    "GeneralOutline.Outline", # Outline VPN
-    "WireGuard.WireGuard", # WireGuard VPN
-    "Mozilla.VPN", # Mozilla VPN
+    "GeneralOutline.Outline", # Outline VPN (возможна ошибка скачивания из-за блокировок)
+    "WireGuard.WireGuard", # WireGuard VPN (возможна ошибка скачивания из-за блокировок)
+    "Mozilla.VPN", # Mozilla VPN (возможна ошибка скачивания из-за блокировок)
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Торренты
-    "qBittorrent.qBittorrent", # qBittorrent
+    "qBittorrent.qBittorrent", # qBittorrent (возможна ошибка скачивания из-за блокировок)
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Утилиты для Windows
     "9P8LTPGCBZXD", # Wintoys
     "XP8JK4HZBVF435", # Auto Dark Mode
@@ -79,7 +78,7 @@ foreach ($app in $apps)
     if ($LASTEXITCODE -ne 0)
     {
         Write-Host "Failed to install $app. Please check the error message above." -ForegroundColor Red
-        exit 1
+        continue        
     }
     else
     {
@@ -88,4 +87,3 @@ foreach ($app in $apps)
 }
 Write-Host "Installation apps complete." -ForegroundColor Green
 Read-Host "Press Enter to exit"
-Set-ExecutionPolicy Default -Scope CurrentUser
