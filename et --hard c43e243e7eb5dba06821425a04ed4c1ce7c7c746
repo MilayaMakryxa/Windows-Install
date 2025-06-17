@@ -1,0 +1,95 @@
+[33mcommit c43e243e7eb5dba06821425a04ed4c1ce7c7c746[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Tue Jun 17 20:00:25 2025 +0700
+
+    Тест
+
+[33mcommit 514573e99bf1851c1b40bac8cbf07d6ca05091c7[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 22:32:47 2025 +0700
+
+    Update Installing programs for Windows.ps1
+
+[33mcommit d8c5e57eed170ea8ba301e8414c27eec71e5c4bd[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 22:12:00 2025 +0700
+
+    Update Installing programs for Windows.ps1
+
+[33mcommit 26234ca224749749a2cdceccafb073bc4c434df9[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 22:01:46 2025 +0700
+
+    Update Installing programs for Windows.ps1
+
+[33mcommit 6f65f41e127184dc0af0aefd041f25569b9c5549[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 21:49:57 2025 +0700
+
+    Update Installing programs for Windows.ps1
+
+[33mcommit c4d1226f75e0434e2e218ff8efb26d9c42a8ce3e[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 20:28:28 2025 +0700
+
+    Update Installing programs for Windows.ps1
+
+[33mcommit ab2ec2602e634346340301f83771de53b75c5c60[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 20:14:32 2025 +0700
+
+    Add files via upload
+
+[33mcommit 8b567fb17ff653f65d9ed1a84bbc44b4f91ad091[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 20:14:01 2025 +0700
+
+    Delete Answer file XML/XML для установки без интернета/autounattend.xml
+
+[33mcommit e2ce2af1134e46430dfa6c9cecac93f0e42355ea[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 20:11:07 2025 +0700
+
+    Add files via upload
+
+[33mcommit ee79da5b98eeb9a2314fe776d35d4d1db74647d2[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 20:08:25 2025 +0700
+
+    Delete Answer file XML/XML для установки с интернетом/autounattend.xml
+
+[33mcommit 29635644403d159a7a760bfbb5189bcb6cfca746[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 19:53:18 2025 +0700
+
+    Delete Answer file XML/desktop.ini
+
+[33mcommit 1729226beb4d94e2e4024fe0c3567f620f48345a[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 19:53:04 2025 +0700
+
+    Delete Answer file XML/XML для установки без интернета/desktop.ini
+
+[33mcommit 5fc98ca2a781f32a3eb4e54ba704ad80e2f78f9f[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 19:52:56 2025 +0700
+
+    Delete Answer file XML/XML для установки с интернетом/desktop.ini
+
+[33mcommit de6dccec2b562db54c3979d05344f9acd53c6ead[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 19:52:42 2025 +0700
+
+    Delete Installing programs for Windows/desktop.ini
+
+[33mcommit 02cf0cfd3826ee286349dc5cb852d745dfbc38c8[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 19:47:05 2025 +0700
+
+    Add files via upload
+
+[33mcommit 9bcea46af3038373cad724f2cf06a07e8c0385b6[m
+Author: MilayaMakryxa <nekotsokolov2001@gmail.com>
+Date:   Mon Jun 16 18:53:04 2025 +0700
+
+    Initial commit
