@@ -21,7 +21,6 @@
   [ ] - установлено
 
 | - [x] 3D Viewer                   | - [x] Bing Search                    | - [ ] Calculator                    |
-| --------------------------------- | ------------------------------------ | ----------------------------------- |
 | - [x] Camera                      | - [x] Clipchamp                      | - [ ] Clock                         |
 | - [x] Copilot                     | - [x] Cortana                        | - [x] Dev Home                      |
 | - [x] Family                      | - [x] Feedback Hub                   | - [x] Get Help                      |
