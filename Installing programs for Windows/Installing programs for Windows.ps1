@@ -23,6 +23,7 @@ $apps = @(
     "Oracle.JDK.24", # Java JDK 24
     "Python.Launcher", # Python Launcher
     "Python.Python.3.13", # Python 3.13
+    "Git.Git", # Git 
     # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Средства разработки
     "JetBrains.PyCharm.Community", # PyCharm Community Edition
     "JetBrains.IntelliJIDEA.Community", # IntelliJ IDEA Community Edition
